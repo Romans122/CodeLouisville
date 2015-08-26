@@ -1,0 +1,47 @@
+h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #990000;
+    text-align: center;
+    font-size: 78px;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: -30px;
+    font-size: 29px;
+}
+
+/******************************************
+intro images
+*******************************************/
+#intro-pics  img{
+	float: center;
+	width: 15%;
+	height: 15%;
+	padding: 0 .5%;
+	margin: 5% 8%;
+}
+	
+table{
+	text-align: justify;
+	width: 100%;
+	font-size: 1em;
+	font-family: 'Playfair Display', serif;
+	background-color: #add8e6;
+	padding: 6.5%;
+	background-size: 100%;
+	height: auto;
+}
+
+	
+
+
+
+
+
+
+
+
+
