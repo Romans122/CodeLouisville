@@ -1,3 +1,8 @@
+Body{
+    background-color: #dee7a1;
+
+}
+
 h1 {
     font-family: 'Lobster', cursive;
     font-weight: bold;
@@ -13,35 +18,28 @@ h2 {
     font-size: 29px;
 }
 
+
+h3{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    text-align: justify;
+
+}
+
 /******************************************
 intro images
 *******************************************/
-#intro-pics  img{
-	float: center;
+#introPics  img{
 	width: 15%;
 	height: 15%;
 	padding: 0 .5%;
 	margin: 5% 8%;
 }
-	
-table{
-	text-align: justify;
-	width: 100%;
-	font-size: 1em;
-	font-family: 'Playfair Display', serif;
-	background-color: #add8e6;
-	padding: 6.5%;
-	background-size: 100%;
-	height: auto;
+
+.food{
+    border-radius: 10px;
 }
 
-	
-
-
-
-
-
-
-
-
+   
 
