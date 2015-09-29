@@ -1,31 +1,90 @@
+
+
+/* Adjust Menu colors - normal*/
+.navbar .nav > li > a, .navbar .nav > li > a {
+color: #000000;
+font-weight: bold;
+}
+
+/* Adjust Menu colors - Hover */
+.navbar .nav > li > a:hover, .navbar .nav > li > a:hover {
+color: red;
+} 
+
+/*Adjust Menu colors - Active */
+.navbar .nav > li> a: active, .navbar .nav > li > a:active{
+    .navbar .nav >li.current-menu-item>a,
+    .navbar .nav .li.current-menu-ancestor>a, 
+    color: blue;
+}
+
+/* unvisited link */
+a:link {
+    color: #003399;
+}
+
+/* visited link */
+a:visited {
+    color: #ff0000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #660066;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+
 h1 {
     font-family: 'Lobster', cursive;
     font-weight: bold;
-    color: #990000;
+    color: #800000;
     text-align: center;
-    font-size: 78px;
+    font-size: 85px;
+    margin-left: -10%
 }
 
 
 h2 {
     text-align: center;
     margin-top: 40px;
-    font-size: 29px;
+    margin-bottom:30px;
+    font-size: 32px;
     font-weight: bold;
+    color:#000000;
 }
 
+h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+    
+    font-size: 22px;
+    color:#000000;
+    font-weight: bold;
+    line-height: normal;
+    text-align: justify;  
 
-h3{
+}
+
+p {
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 2%;
-    font-size: 20px;
+    font-size: 22px;
+    color:#000000;
+    font-weight: bold;
+    line-height: normal;
     text-align: justify;
-
 }
 
+
 /******************************************
-intro images
+food images
 *******************************************/
 #introPics  img{
     width: 15%;
@@ -37,3 +96,10 @@ intro images
 .food{
     border-radius: 10px;
 }
+
+
+
+
+
+
+
