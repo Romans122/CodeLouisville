@@ -84,16 +84,16 @@ p {
 
 
 /******************************************
-food images
+Contact.html images
 *******************************************/
-#introPics  img{
-    width: 15%;
-    height: 15%;
-    padding: 0 .5%;
-    margin: 5% 8%;
+#contactPics  img{
+    margin-top: 4%;
+    margin-left: 9%;
+    margin-bottom: 4%;
+
 }
 
-.food{
+.cattle{
     border-radius: 10px;
 }
 
